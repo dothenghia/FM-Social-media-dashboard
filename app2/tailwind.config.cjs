@@ -27,6 +27,7 @@ module.exports = {
 			'LightBG': '#ffffff',
 			'LightTopBGPattern': '#f5f7ff',
 			'LightCardBG': '#f0f2fa',
+			'LightCardBGHover': '#dbdeeb',
 			'LightText': '#63687e',
 			'LightBigText': '#1e202a',
 			

@@ -3,7 +3,7 @@ import './header.css'
 
 const Header = () => {
 	return (
-		<div className="flex flex-col py-8 px-4 md:flex-row md:justify-between md:items-center">
+		<div className="bg-LightCardBG flex flex-col py-8 px-5 md:flex-row md:justify-between md:items-center">
 			<div className="">
 				<h1 className="font-bold text-2xl text-LightBigText">Social Media Dashboard</h1>
 				<p className="font-bold text-LightText">Total Followers: 23,004</p>
