@@ -1,0 +1,37 @@
+.header-checkbox {
+    display: none;
+}
+
+.header-label {
+    width: 48px;
+    height: 24px;
+    padding: 3px 4px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+    background: #aeb3cb;
+    transition:  0.5s ease;
+    position: relative;
+}
+.header-label:hover {
+    background-image: linear-gradient(90deg, #378fe6, #3eda82);
+}
+
+.header-label::after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 25px;
+    
+    transform: translateX(0);
+    transition: all 0.3s ease-out;
+}
+
+#header-checkbox:checked ~ .header-label::after {
+    transform: translateX(22px);
+}
+#header-checkbox:checked ~ .header-label {
+    background-image: linear-gradient(90deg, #378fe6, #3eda82);
+}

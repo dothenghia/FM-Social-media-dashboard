@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: 'Inter', sans-serif;
+}
+
+/* :root {
+    --LimeGreen: #1db489;
+	--BrightRed: #dc414c;
+
+	--Facebook: #198ff5;
+	--Twitter: #1ca0f2;
+	--Instagram: linear-gradient(90deg, #fdc468, #df4996);
+	--YouTube: #c4032a;
+
+	--LightToggle: #aeb3cb;
+	--DarkToggle: linear-gradient(90deg, #378fe6, #3eda82);
+
+	--LightBG: #ffffff;
+	--LightTopBGPattern: #f5f7ff;
+	--LightCardBG: #f0f2fa;
+	--LightText: #63687e;
+	--LightNumber: #1e202a;
+
+	--DarkBG: #1e202a;
+	--DarkTopBGPattern: #1f212e;
+	--DarkCardBG: #252a41;
+	--DarkText: #8b97c6;
+	--DarkNumber: #ffffff;
+
+	--FontFamily : 'Inter';
+} */
