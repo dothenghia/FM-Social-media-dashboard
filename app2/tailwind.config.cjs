@@ -35,6 +35,7 @@ module.exports = {
 			'DarkBG': '#1e202a',
 			'DarkTopBGPattern': '#1f212e',
 			'DarkCardBG': '#252a41',
+			'DarkCardBGHover': '#384060',
 			'DarkText': '#8b97c6',
 			'DarkBigText': '#ffffff',
 		},

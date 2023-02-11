@@ -12,17 +12,18 @@ const BACKGROUND_MAP = {
 const Card = ({ card }) => {
 	return (
 		<div className="w-full h-[220px] bg-LightCardBG rounded-md overflow-hidden flex flex-col items-center
-						hover:bg-LightCardBGHover cursor-pointer">
+						hover:bg-LightCardBGHover cursor-pointer
+						dark:bg-DarkCardBG dark:hover:bg-DarkCardBGHover">
 			<div className={`w-full h-1 ${BACKGROUND_MAP[card.type]}`}></div>
 
 			<div className='mt-6'>
 				<img src={card.logo} alt={card.type} className='inline-block'/>
-				<p className='inline-block ml-2 text-sm font-bold text-LightText'>{card.name}</p>
+				<p className='inline-block ml-2 text-sm font-bold text-LightText dark:text-DarkText'>{card.name}</p>
 			</div>
 
-			<h1 className='mt-5 text-6xl font-bold text-LightBigText'>{card.number}</h1>
+			<h1 className='mt-5 text-6xl font-bold text-LightBigText dark:text-DarkBigText'>{card.number}</h1>
 
-			<h2 className='mt-1 text-sm text-LightText tracking-[5px]'>
+			<h2 className='mt-1 text-sm text-LightText dark:text-DarkText tracking-[5px]'>
 				{(card.type !== 'YouTube') ? 'FOLLOWERS' : 'SUBSCRIBERS'}
 			</h2>
 

@@ -111,7 +111,7 @@ const overviewData = [
 
 const Statistics = () => {
 	return (
-		<div className="p-5 lg:px-0">
+		<div className="p-5 dark:bg-DarkBG">
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
 				{cardData.map(card => (
 					<Card 
@@ -121,7 +121,7 @@ const Statistics = () => {
 				))}
 			</div>
 
-			<h1 className="mt-10 mb-5 text-2xl font-bold text-LightText">Overview - Today</h1>
+			<h1 className="mt-10 mb-5 text-2xl font-bold text-LightText dark:text-DarkBigText">Overview - Today</h1>
 
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
 				{overviewData.map(card => (
